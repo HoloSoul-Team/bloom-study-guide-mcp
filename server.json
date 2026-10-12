@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.HoloSoul-Team/bloom",
+  "title": "Bloom Study Guides",
+  "description": "Turn AI learning chats into illustrated study guides, and search guides already on Bloom.",
+  "version": "0.1.2",
+  "websiteUrl": "https://bloombook.cn/plugin",
+  "repository": {
+    "url": "https://github.com/HoloSoul-Team/bloom-study-guide-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bloombook.cn/api/mcp"
+    }
+  ]
+}
