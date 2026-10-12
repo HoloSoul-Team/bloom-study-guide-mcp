@@ -6,7 +6,7 @@
 
 $ErrorActionPreference = 'Stop'
 
-$Repo = 'HoloSoul-Team/bloom-plugins'
+$Repo = 'HoloSoul-Team/bloom-study-guide-mcp'
 $McpUrl = 'https://bloombook.cn/api/mcp'
 # The skill is tried from bloombook.cn first (reachable without a proxy in mainland China), then GitHub.
 $SkillUrls = @(

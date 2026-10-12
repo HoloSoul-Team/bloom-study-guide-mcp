@@ -1,4 +1,4 @@
-# Bloom 插件
+# Bloom 插件：把和 AI 的学习对话变成图文学习专题（MCP 服务 + 插件）
 
 [English](README.md) | **简体中文**
 
@@ -42,14 +42,14 @@ irm https://bloombook.cn/install.ps1 | iex
 ### Claude Code
 
 ```
-/plugin marketplace add HoloSoul-Team/bloom-plugins
+/plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 /plugin install bloom@bloom
 ```
 
 ### Codex
 
 ```
-codex plugin marketplace add HoloSoul-Team/bloom-plugins
+codex plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 codex plugin add bloom@bloom
 ```
 
@@ -67,7 +67,7 @@ url = "https://bloombook.cn/api/mcp"
 ### Gemini CLI
 
 ```
-gemini extensions install https://github.com/HoloSoul-Team/bloom-plugins
+gemini extensions install https://github.com/HoloSoul-Team/bloom-study-guide-mcp
 ```
 
 ### Cursor

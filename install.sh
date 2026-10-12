@@ -11,7 +11,7 @@
 
 set -u
 
-REPO="HoloSoul-Team/bloom-plugins"
+REPO="HoloSoul-Team/bloom-study-guide-mcp"
 MCP_URL="https://bloombook.cn/api/mcp"
 # The skill is tried from bloombook.cn first (reachable without a proxy in mainland China), then GitHub.
 SKILL_URLS="${BLOOM_SKILL_URL:-https://bloombook.cn/bloom-plugin/SKILL.md https://raw.githubusercontent.com/$REPO/main/plugins/bloom/skills/bloom-study/SKILL.md}"

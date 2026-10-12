@@ -1,4 +1,4 @@
-# Bloom Plugin
+# Bloom — turn AI chats into illustrated study guides (MCP server + plugin)
 
 **English** | [简体中文](README.zh-CN.md)
 
@@ -42,14 +42,14 @@ The command above covers all of these. Use the steps below only if you want to s
 ### Claude Code
 
 ```
-/plugin marketplace add HoloSoul-Team/bloom-plugins
+/plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 /plugin install bloom@bloom
 ```
 
 ### Codex
 
 ```
-codex plugin marketplace add HoloSoul-Team/bloom-plugins
+codex plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 codex plugin add bloom@bloom
 ```
 
@@ -67,7 +67,7 @@ After adding the marketplace with the Codex command above, restart the ChatGPT d
 ### Gemini CLI
 
 ```
-gemini extensions install https://github.com/HoloSoul-Team/bloom-plugins
+gemini extensions install https://github.com/HoloSoul-Team/bloom-study-guide-mcp
 ```
 
 ### Cursor

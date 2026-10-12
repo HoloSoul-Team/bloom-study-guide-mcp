@@ -40,7 +40,7 @@ The sections below are the manual steps the installer performs. Use them only if
 ## Claude Code
 
 ```sh
-claude plugin marketplace add HoloSoul-Team/bloom-plugins   # if it already exists: claude plugin marketplace update bloom
+claude plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp   # if it already exists: claude plugin marketplace update bloom
 claude plugin install bloom@bloom                           # if already installed: claude plugin update bloom@bloom
 ```
 
@@ -49,16 +49,16 @@ Clean reinstall if needed:
 ```sh
 claude plugin uninstall bloom@bloom
 claude plugin marketplace remove bloom
-claude plugin marketplace add HoloSoul-Team/bloom-plugins
+claude plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 claude plugin install bloom@bloom
 ```
 
-Inside an interactive session the equivalents are `/plugin marketplace add HoloSoul-Team/bloom-plugins`, `/plugin install bloom@bloom`, then `/reload-plugins`.
+Inside an interactive session the equivalents are `/plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp`, `/plugin install bloom@bloom`, then `/reload-plugins`.
 
 ## Codex and ChatGPT desktop
 
 ```sh
-codex plugin marketplace add HoloSoul-Team/bloom-plugins   # if it already exists: codex plugin marketplace upgrade bloom
+codex plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp   # if it already exists: codex plugin marketplace upgrade bloom
 codex plugin add bloom@bloom
 ```
 
@@ -67,7 +67,7 @@ Clean reinstall if needed:
 ```sh
 codex plugin remove bloom@bloom
 codex plugin marketplace remove bloom
-codex plugin marketplace add HoloSoul-Team/bloom-plugins
+codex plugin marketplace add HoloSoul-Team/bloom-study-guide-mcp
 codex plugin add bloom@bloom
 ```
 
@@ -76,7 +76,7 @@ The Codex CLI and desktop app share `~/.codex`. After adding the marketplace, fu
 ## Gemini CLI
 
 ```sh
-gemini extensions install https://github.com/HoloSoul-Team/bloom-plugins --consent   # already installed: gemini extensions update bloom-plugins
+gemini extensions install https://github.com/HoloSoul-Team/bloom-study-guide-mcp --consent   # already installed: gemini extensions update bloom-plugins
 ```
 
 ## Cursor
@@ -106,7 +106,7 @@ Claude Desktop's custom connectors require sign-in, so use a local bridge (needs
 2. Put the skill at `~/.workbuddy/skills/bloom-study/SKILL.md`:
 
    ```sh
-   mkdir -p ~/.workbuddy/skills/bloom-study && curl -fsSL https://raw.githubusercontent.com/HoloSoul-Team/bloom-plugins/main/plugins/bloom/skills/bloom-study/SKILL.md -o ~/.workbuddy/skills/bloom-study/SKILL.md
+   mkdir -p ~/.workbuddy/skills/bloom-study && curl -fsSL https://raw.githubusercontent.com/HoloSoul-Team/bloom-study-guide-mcp/main/plugins/bloom/skills/bloom-study/SKILL.md -o ~/.workbuddy/skills/bloom-study/SKILL.md
    ```
 
 3. The user must do this part: **restart WorkBuddy** (it only reads the config at startup), open **Connectors** in the left sidebar → **Custom connector** (top right), and click **Trust** on the `bloom` row. It then connects and lists two tools.
